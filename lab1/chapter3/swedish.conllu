@@ -335,6 +335,27 @@
 22	.	PUNCT	9	punct
 
 # sent_id = 23
+# text = Det har sagts att endast ett hierakalist samhället med en fritidsklass i toppen kan producera konstverk.
+1	Det	PRON	3	_
+2	har	AUX	3	aux
+3	sagts	VERB	0	root
+4	att	SCONJ	15	mark
+5	endast	ADV	8	advmod
+6	ett	DET	8	det
+7	hierktiskt	ADJ	8	amod
+8	samhälle	NOUN	15	nsubj
+9	med	ADP	11	case
+10	en	DET	11	det
+11	fritidsklass	8	nmod
+12	i	ADP	13	case
+13	toppen	NOUN	11	nmod
+14	kan	AUX	15	aux
+15	producera	VERB	3	_
+16	konstverk	NOUN	15	obj
+17	.	PUNCT	3	punct
+
+
+# sent_id = 24
 # text = Hans geniala förklaring till att han inte skulle ha bränt ner#comment kyrkan om han inte trodde att biskopen var i den.
 1	Hans	PRON	3	nmod:poss
 2	geniala	ADJ	3	amod
