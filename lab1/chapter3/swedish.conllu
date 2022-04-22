@@ -270,27 +270,6 @@
 # sent_id = 19
 # text = Hon blev upprörd över att denna flicka skulle våga göra henne till åtlöje inför hela klassen.
 # text_en = She was incensed that this chit of a girl should dare to make a fool of her in front of the class
-1	Hon	PRON	2	nsubj
-2	blev	AUX	0	root
-3	upprörd	ADJ 2	xcomp
-4	över	ADP	9	mark
-5	att	SCONJ	9	mark
-6	denna	DET	7	det
-7	flicka	NOUN	9	nsubj
-8	skulle	AUX	9	aux
-9	våga	VERB	2	advcl
-10	göra	VERB	9	xcomp
-11	henne	PRON	10	obj
-12	till	ADP	13	case
-13	åtlöje	NOUN	10	obl
-14	inför	ADP	16	case
-15	hela	ADJ	16	amod
-16	klassen	NOUN	10	obl
-17	.	PUNCT	2	punct
-
-# sent_id = 19
-# text = Hon blev upprörd över att denna flicka skulle våga göra henne till åtlöje inför hela klassen.
-# text_en = She was incensed that this chit of a girl should dare to make a fool of her in front of the class
 1	Hon	_	PRON	_	_	2	nsubj	_	_
 2	blev	_	AUX	_	_	0	root	_	_
 3	upprörd	_	ADJ	_	_	2	xcomp	_	_
