@@ -1,36 +1,36 @@
 # sent_id = 1
 # text = Vilka är de?
 # text_en = Who are they ?
-1	Vilka PRON	0	root
-2	är	AUX	1	cop
-3	de	PRON	1	nsubj
-4	?	PUNCT	1	punct
+1	Vilka	_	PRON	_	_	0	root	_	_
+2	är	_	AUX	_	_	1	cop	_	_
+3	de	_	PRON	_	_	1	nsubj	_	_
+4	?	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 2
 # text = En liten stad med två minareter glider förbi.
 # text_en = A small town with two minarets glides by .
-1	En	DET	3	det
-2	liten	ADJ	3	amod
-3	stad	NOUN	7	nsubj
-4	med	ADP	6	case
-5	två	NUM	6	nmod
-6	minareter	NOUN	3	nmod
-7	glider	VERB	0	root
-8	förbi	ADP	7	advmod
-9	.	PUNCT	7	punct
+1	En	_	DET	_	_	3	det	_	_
+2	liten	_	ADJ	_	_	3	amod	_	_
+3	stad	_	NOUN	_	_	7	nsubj	_	_
+4	med	_	ADP	_	_	6	case	_	_
+5	två	_	NUM	_	_	6	nmod	_	_
+6	minareter	_	NOUN	_	_	3	nmod	_	_
+7	glider	_	VERB	_	_	0	root	_	_
+8	förbi	_	ADP	_	_	7	advmod	_	_
+9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 3
 # text = Jag var bara en pojke med leriga skor.
 # text = I was just a boy with muddy shoes .
-1	Jag	PRON	5 nsubj
-2	var	AUX	5	cop
-3	bara	ADV	5	advmod
-4	en	DET	5	det
-5	pojke	NOUN	0	root
-6	med	ADP	8	case
-7	leriga	ADJ	8	amod
-8	skor	NOUN	5	nmod
-9	.	PUNCT	5	punct
+1	Jag	_	PRON	_	_	5	nsubj	_	_
+2	var	_	AUX	_	_	5	cop	_	_
+3	bara	_	ADV	_	_	5	advmod	_	_
+4	en	_	DET	_	_	5	det	_	_
+5	pojke	_	NOUN	_	_	0	root	_	_
+6	med	_	ADP	_	_	8	case	_	_
+7	leriga	_	ADJ	_	_	8	amod	_	_
+8	skor	_	NOUN	_	_	5	nmod	_	_
+9	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 4
 # text = Shenzhens trafikpolis har valt okonventionella straff förut.
@@ -62,210 +62,210 @@
 # sent_id = 6
 # text = Det genomfördes precis vid den mexikanska kusten mellan april och juni.
 # text_en = It was conducted just off the Mexican coast from April to June .
-1	Det	PRON	2	nsubj:pass
-2	genomfördes	VERB	0	root
-3	precis	ADV	2	advmod
-4	vid	ADP	7	case
-5	den	DET	7	det
-6	mexikanska	ADJ	7	amod
-7	kusten	NOUN	2	obl
-8	mellan	ADP	9	case
-9	april	NOUN	2	obl
-10	och	CCONJ	11	cc
-11	juni	NOUN	9	conj
-12	.	PUNCT	2	punct
+1	Det	_	PRON	_	_	2	nsubj:pass	_	_
+2	genomfördes	_	VERB	_	_	0	root	_	_
+3	precis	_	ADV	_	_	2	advmod	_	_
+4	vid	_	ADP	_	_	7	case	_	_
+5	den	_	DET	_	_	7	det	_	_
+6	mexikanska	_	ADJ	_	_	7	amod	_	_
+7	kusten	_	NOUN	_	_	2	obl	_	_
+8	mellan	_	ADP	_	_	9	case	_	_
+9	april	_	NOUN	_	_	2	obl	_	_
+10	och	_	CCONJ	_	_	11	cc	_	_
+11	juni	_	NOUN	_	_	9	conj	_	_
+12	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 7
 # text = "Hennes röst åkte bokstavligen över hela världen" sa Leive
 # text_en = "Her voice literally went around the world ," Leive said .
-1	Hennes	PRON	2	nmod:poss
-2	röst	NOUN	3	nsubj
-3	åkte	VERB	0	root
-4	bokstavligen	ADV	3	advmod
-5	över	ADP	7	case
-6	hela	ADJ	7	amod
-7	världen	NOUN	8	obl
-8	sa	VERB	3	_
-9	Leive	PROPN	9	nsubj
-10	.	PUNCT	3	punct
+1	Hennes	_	PRON	_	_	2	nmod:poss	_	_
+2	röst	_	NOUN	_	_	3	nsubj	_	_
+3	åkte	_	VERB	_	_	0	root	_	_
+4	bokstavligen	_	ADV	_	_	3	advmod	_	_
+5	över	_	ADP	_	_	7	case	_	_
+6	hela	_	ADJ	_	_	7	amod	_	_
+7	världen	_	NOUN	_	_	8	obl	_	_
+8	sa	_	VERB	_	_	3	_	_	_
+9	Leive	_	PROPN	_	_	9	nsubj	_	_
+10	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8
 # text = Ett vittne sa till polisen att offret hade attackerat den misstänkta i april.
 # text_en = A witness told police that the victim had attacked the suspect in April .
-1	Ett	DET	2	det
-2	vittne	NOUN	3	nsubj
-3	sa	VERB	0	root
-4	till	ADP	5	case
-5	polisen	NOUN	3	obl
-6	att	SCONJ	9	mark
-7	offret	NOUN	9	nsubj
-8	hade	AUX	9	aux
-9	attackerat	VERB	3	ccomp
-10	den	DET	11	det
-11	misstänkte	NOUN	9	obj
-12	i	ADP	13	case
-13	april	PROPN	9	obl
-14	.	PUNCT	3	punct
+1	Ett	_	DET	_	_	2	det	_	_
+2	vittne	_	NOUN	_	_	3	nsubj	_	_
+3	sa	_	VERB	_	_	0	root	_	_
+4	till	_	ADP	_	_	5	case	_	_
+5	polisen	_	NOUN	_	_	3	obl	_	_
+6	att	_	SCONJ	_	_	9	mark	_	_
+7	offret	_	NOUN	_	_	9	nsubj	_	_
+8	hade	_	AUX	_	_	9	aux	_	_
+9	attackerat	_	VERB	_	_	3	ccomp	_	_
+10	den	_	DET	_	_	11	det	_	_
+11	misstänkte	_	NOUN	_	_	9	obj	_	_
+12	i	_	ADP	_	_	13	case	_	_
+13	april	_	PROPN	_	_	9	obl	_	_
+14	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 9
 # text = Det är som allra tydligast när en kändis namn från början är riktigt ovanligt.
 # text_en = It 's most obvious when a celebrity 's name is initially quite rare .
-1	Det	PRON	5	nsubj
-2	är	AUX	5	cop
-3	som	SCONJ	5	mark
-4	allra	ADV	5	advmod
-5	tydligast	ADJ	0	root
-6	när	SCONJ	14	mark
-7	en	DET	8	det
-8	kändis	NOUN	9	nmod:poss
-9	namn	NOUN	14	nsubj
-10	från	ADP	11	case
-11	början	NOUN	14	obl
-12	är	AUX	14	cop
-13	riktigt	ADV	14	advmod
-14	ovanligt	ADJ	5	advcl
-15	.	PUNCT	5	punct
+1	Det	_	PRON	_	_	5	nsubj	_	_
+2	är	_	AUX	_	_	5	cop	_	_
+3	som	_	SCONJ	_	_	5	mark	_	_
+4	allra	_	ADV	_	_	5	advmod	_	_
+5	tydligast	_	ADJ	_	_	0	root	_	_
+6	när	_	SCONJ	_	_	14	mark	_	_
+7	en	_	DET	_	_	8	det	_	_
+8	kändis	_	NOUN	_	_	9	nmod:poss	_	_
+9	namn	_	NOUN	_	_	14	nsubj	_	_
+10	från	_	ADP	_	_	11	case	_	_
+11	början	_	NOUN	_	_	14	obl	_	_
+12	är	_	AUX	_	_	14	cop	_	_
+13	riktigt	_	ADV	_	_	14	advmod	_	_
+14	ovanligt	_	ADJ	_	_	5	advcl	_	_
+15	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 10
 # text = Detta har inte stoppat investerare från att flockas för att lägga sina pengar i fonderna.
 # text_en = This has not stopped investors flocking to put their money in the funds .
-1	Detta	PRON	4	nsubj
-2	har	AUX	4	aux
-3	inte	PART	4	advmod
-4	stoppat	VERB	0	root
-5	investerare	NOUN	4	obj
-6	från	ADP	8	mark
-7	att	PART	8	mark
-8	flockas	VERB	4	advcl
-9	för	ADP	11	mark
-10	att	PART	11	mark
-11	lägga	VERB	8	advcl
-13	sina	PRON	13	nmod:pass
-14  i   ADP 16  case
-15	pengar	NOUN	11	obj
-16	fonderna	NOUN	11	obl
-17	.	PUNCT	4	punct
+1	Detta	_	PRON	_	_	4	nsubj	_	_
+2	har	_	AUX	_	_	4	aux	_	_
+3	inte	_	PART	_	_	4	advmod	_	_
+4	stoppat	_	VERB	_	_	0	root	_	_
+5	investerare	_	NOUN	_	_	4	obj	_	_
+6	från	_	ADP	_	_	8	mark	_	_
+7	att	_	PART	_	_	8	mark	_	_
+8	flockas	_	VERB	_	_	4	advcl	_	_
+9	för	_	ADP	_	_	11	mark	_	_
+10	att	_	PART	_	_	11	mark	_	_
+11	lägga	_	VERB	_	_	8	advcl	_	_
+13	sina	_	PRON	_	_	13	nmod:pass	_	_
+14	i	_	ADP	_	_	16	case	_	_
+15	pengar	_	NOUN	_	_	11	obj	_	_
+16	fonderna	_	NOUN	_	_	11	obl	_	_
+17	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 11
 # text = Denna motsägelse mellan ekonomisk data och politisk retorik är bekant, eller borde vara det.
 # text_en = This discordance between economic data and political rhetoric is familiar , or should be .
-1	Denna	DET	2	det
-2	motsägelse	NOUN	10	nsubj
-3	mellan	ADP	5	case
-4	ekonomisk	ADJ	5	amod
-5	data	NOUN	2	nmod
-6	och	CCONJ	8	cc
-7	politisk	ADJ	8	amod
-8	retorik	NOUN	5	conj
-9	är	AUX	10	cop
-10	bekant	ADJ	0	root
-11	,	PUNCT	14	punct
-12	eller	CCONJ	14	cc
-13	borde	AUX	14	aux
-14	vara	VERB	10	conj
-15	det	PRON	14	obj
-16	.	PUNCT	10	punct
+1	Denna	_	DET	_	_	2	det	_	_
+2	motsägelse	_	NOUN	_	_	10	nsubj	_	_
+3	mellan	_	ADP	_	_	5	case	_	_
+4	ekonomisk	_	ADJ	_	_	5	amod	_	_
+5	data	_	NOUN	_	_	2	nmod	_	_
+6	och	_	CCONJ	_	_	8	cc	_	_
+7	politisk	_	ADJ	_	_	8	amod	_	_
+8	retorik	_	NOUN	_	_	5	conj	_	_
+9	är	_	AUX	_	_	10	cop	_	_
+10	bekant	_	ADJ	_	_	0	root	_	_
+11	,	_	PUNCT	_	_	14	punct	_	_
+12	eller	_	CCONJ	_	_	14	cc	_	_
+13	borde	_	AUX	_	_	14	aux	_	_
+14	vara	_	VERB	_	_	10	conj	_	_
+15	det	_	PRON	_	_	14	obj	_	_
+16	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 12
 # text = Rimlighetsstudien uppskattar att det skulle ta passagerare ungefär fyra minuter att korsa Potomacfloden med gondolan.
 # text_en = The feasibility study estimates that it would take passengers about four minutes to cross the Potomac River on the gondola .
-1	Rimlighetsstudien	NOUN	2	nsubj
-2	uppskattar	VERB	0	root
-3	att	SCONJ	6	mark
-4	det	PRON	6	expl
-5	skulle	AUX	6	aux
-6	ta	VERB	2	ccomp
-7	passagerare	NOUN	6	_
-8	ungefär	ADV	9	advmod
-9	fyra	NUM	10	nummod
-10	minuter	NOUN	6	obj
-11	att	PART	12	mark
-12	korsa	VERB	6	csubj
-13	Potomacfloden	NOUN	12	obj
-14	med	ADP	15	case
-15	gondolan	NOUN	12	obl
-16	.	PUNCT	2	punct
+1	Rimlighetsstudien	_	NOUN	_	_	2	nsubj	_	_
+2	uppskattar	_	VERB	_	_	0	root	_	_
+3	att	_	SCONJ	_	_	6	mark	_	_
+4	det	_	PRON	_	_	6	expl	_	_
+5	skulle	_	AUX	_	_	6	aux	_	_
+6	ta	_	VERB	_	_	2	ccomp	_	_
+7	passagerare	_	NOUN	_	_	6	_	_	_
+8	ungefär	_	ADV	_	_	9	advmod	_	_
+9	fyra	_	NUM	_	_	10	nummod	_	_
+10	minuter	_	NOUN	_	_	6	obj	_	_
+11	att	_	PART	_	_	12	mark	_	_
+12	korsa	_	VERB	_	_	6	csubj	_	_
+13	Potomacfloden	_	NOUN	_	_	12	obj	_	_
+14	med	_	ADP	_	_	15	case	_	_
+15	gondolan	_	NOUN	_	_	12	obl	_	_
+16	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 13
 # text = Han samlade kort och bytte dem med de andra pojkarna.
 # text_en = He collected cards and traded them with the other boys.
-1	Han	PRON	2	nsubj
-2	samlade	VERB	0	root
-3	kort	NOUN	2	obj
-4	och	CCONJ	2	conj
-5	bytte	VERB	2	_
-6	dem	PRON	5	obj
-7	med	ADP	9	case
-8   de  DET 10  det
-9	andra	ADJ	9	amod
-10	pojkarna	NOUN	5	obl
-11	.	PUNCT	2	punct
+1	Han	_	PRON	_	_	2	nsubj	_	_
+2	samlade	_	VERB	_	_	0	root	_	_
+3	kort	_	NOUN	_	_	2	obj	_	_
+4	och	_	CCONJ	_	_	2	conj	_	_
+5	bytte	_	VERB	_	_	2	_	_	_
+6	dem	_	PRON	_	_	5	obj	_	_
+7	med	_	ADP	_	_	9	case	_	_
+8	de	_	DET	_	_	10	det	_	_
+9	andra	_	ADJ	_	_	9	amod	_	_
+10	pojkarna	_	NOUN	_	_	5	obl	_	_
+11	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 14
 # text = Detta brott är värt ett fem år långt fängelsestraff.
 # text_en = this crime carries a penalty of five years in prison
-1	Detta	DET	2	det
-2	brott	NOUN	4	nsubj
-3	är	AUX	4	cop
-4	värt	ADJ	0	root
-5	ett	DET	7	det
-6	fem	NUM	7	nummod
-7	år	NOUN	9	nmod
-8	långt	ADJ	9	amod
-9	fängelsestraff	NOUN	4	xcomp
-10	.	PUNCT	4	punct
+1	Detta	_	DET	_	_	2	det	_	_
+2	brott	_	NOUN	_	_	4	nsubj	_	_
+3	är	_	AUX	_	_	4	cop	_	_
+4	värt	_	ADJ	_	_	0	root	_	_
+5	ett	_	DET	_	_	7	det	_	_
+6	fem	_	NUM	_	_	7	nummod	_	_
+7	år	_	NOUN	_	_	9	nmod	_	_
+8	långt	_	ADJ	_	_	9	amod	_	_
+9	fängelsestraff	_	NOUN	_	_	4	xcomp	_	_
+10	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 15
 # text = Nyheterna kom till alla byar i provinsen
 # text_en = the news was carried to every village in the province
-1	Nyheterna	NOUN	2	nsubj
-2	kom	VERB	0	root
-3	till	ADP	5	case
-4	alla	DET	5	det
-5	byar	NOUN	2	obl
-6	i	ADP	7	case
-7	provinsen	NOUN	5	nmod
-8	.	PUNCT	2	punct
+1	Nyheterna	_	NOUN	_	_	2	nsubj	_	_
+2	kom	_	VERB	_	_	0	root	_	_
+3	till	_	ADP	_	_	5	case	_	_
+4	alla	_	DET	_	_	5	det	_	_
+5	byar	_	NOUN	_	_	2	obl	_	_
+6	i	_	ADP	_	_	7	case	_	_
+7	provinsen	_	NOUN	_	_	5	nmod	_	_
+8	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 16
 # text = Jag har dessa tankar i mitt bakhuvud.
 # text_en = I carry these thoughts in the back of my head
-1	Jag	PRON	2	nsubj
-2	har	VERB	0	root
-3	dessa	DET	4	det
-4	tankar	NOUN	2	obj
-5	i	ADP	7	case
-6	mitt	PRON	7	nmod:poss
-7	bakhuvud	NOUN	2	obl
-8	.	PUNCT	2	punct
+1	Jag	_	PRON	_	_	2	nsubj	_	_
+2	har	_	VERB	_	_	0	root	_	_
+3	dessa	_	DET	_	_	4	det	_	_
+4	tankar	_	NOUN	_	_	2	obj	_	_
+5	i	_	ADP	_	_	7	case	_	_
+6	mitt	_	PRON	_	_	7	nmod:poss	_	_
+7	bakhuvud	_	NOUN	_	_	2	obl	_	_
+8	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 17
 # text = Adam skulle ha blivit buren in i det oändliga livet. ???
 # text_en = Adam would have been carried over into the life eternal
-1	Adam	PROPN	4	nsubj
-2	skulle	AUX	4	aux
-3	ha	AUX	4	aux
-4	blivit	VERB	0	root
-5	buren	ADJ	4	xcomp
-6	in	ADV	10	case
-7	i	ADP	10	case
-8	det	DET	10	det
-9	oändliga	ADJ	10	amod
-10	livet	NOUN	4	obl
-11	.	PUNCT	4	punct
+1	Adam	_	PROPN	_	_	4	nsubj	_	_
+2	skulle	_	AUX	_	_	4	aux	_	_
+3	ha	_	AUX	_	_	4	aux	_	_
+4	blivit	_	VERB	_	_	0	root	_	_
+5	buren	_	ADJ	_	_	4	xcomp	_	_
+6	in	_	ADV	_	_	10	case	_	_
+7	i	_	ADP	_	_	10	case	_	_
+8	det	_	DET	_	_	10	det	_	_
+9	oändliga	_	ADJ	_	_	10	amod	_	_
+10	livet	_	NOUN	_	_	4	obl	_	_
+11	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 18
 # text = Höljena hade ruttnat bort och behövde bytas ut.
 # text_en = the casings had rotted away and had to be replaced
-1	Höljena	NOUN	3	nsubj
-2	hade	AUX	3	aux
-3	ruttnat	VERB	0	root
-4	bort	ADV	3	_
-5	och	CCONJ	7	cc
-6	behövde	AUX	7	aux
-7	bytas	VERB	3	conj
-8	ut	ADP	7	compound:prt
-9	.	PUNCT	3	.
+1	Höljena	_	NOUN	_	_	3	nsubj	_	_
+2	hade	_	AUX	_	_	3	aux	_	_
+3	ruttnat	_	VERB	_	_	0	root	_	_
+4	bort	_	ADV	_	_	3	_	_	_
+5	och	_	CCONJ	_	_	7	cc	_	_
+6	behövde	_	AUX	_	_	7	aux	_	_
+7	bytas	_	VERB	_	_	3	conj	_	_
+8	ut	_	ADP	_	_	7	compound:prt	_	_
+9	.	_	PUNCT	_	_	3	.	_	_
 
 # sent_id = 19
 # text = Hon blev upprörd över att denna flicka skulle våga göra henne till åtlöje inför hela klassen.
