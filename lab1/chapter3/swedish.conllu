@@ -56,7 +56,7 @@
 7	,	PUNCT	4	punct
 8	ibland	ADV	9	advmod
 9	stavat	10	admod
-10	vulkanologi	NOUN	4	xcomp
+10	vulkanologi NOUN	4	xcomp
 11	.	PUNCT	4	punct
 
 # sent_id = 6

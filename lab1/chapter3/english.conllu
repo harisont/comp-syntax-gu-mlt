@@ -57,3 +57,35 @@
 10  spelled _   VERB    _   _    6  acl _   _
 11  vulcanology _   NOUN    _   _   10  xcomp   _   _
 12  .   _   PUNCT   _   _   6   punct   _   _
+
+# sent_id = 6
+# text = It was conducted just off the Mexican coast from April to June.
+1	It	_	PRON	_	_	3	nsubj:pass	_	_
+2	was	_	AUX	_	_	3	aux:pass	_	_
+3	conducted	_	VERB	_	_	0	root	_	_
+4	just	_	ADV	_	_	8	advmod	_	_
+5	off	_	ADP	_	_	8	case	_	_
+6	the	_	DET	_	_	8	det	_	_
+7	Mexican	_	ADJ	_	_	8	amod	_	_
+8	coast	_	NOUN	_	_	3	obl	_	_
+9	from	_	ADP	_	_	10	case	_	_
+10	April	_	PROPN	_	_	3	obl	_	_
+11	to	_	ADP	_	_	12	case	_	_
+12	June	_	PROPN	_	_	10	nmod	_	_
+13	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 7
+# text = ""Her voice literally went around the world," Leive said.
+1   " PUNCT 0   dep
+2   Her PRON    0   dep
+3   voice   NOUN    0   dep
+4   literally   ADV 0   dep
+5   went    VERB    0   dep
+6   around  ADP 0   dep
+7   the DET 0   dep
+8   world   NOUN    0   dep
+10  ,   PUNCT   0   dep
+11  "   PUNCT   0   dep 
+12  Leive   PROPN   0   dep
+13  said    VERB    0   dep
+14  .   PUNCT   0   dep 
