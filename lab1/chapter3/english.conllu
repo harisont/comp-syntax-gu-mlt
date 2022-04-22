@@ -1,47 +1,48 @@
 # sent_id = 1
-# text = "Who are they?"
-1   Who _   PRON    _   _   0   root    _   _ 
-2   are     _   AUX _   _   1   cop _   _
-3   they    _    PRON   _   _    1   nsubj  _   _
-4   ?   _   PUNCT   _   _   1   punct   _   _ 
+# text = Vilka är de?
+# text_en = Who are they ?
+1	Vilka	_	PRON	_	_	0	root	_	_
+2	är	_	AUX	_	_	1	cop	_	_
+3	de	_	PRON	_	_	1	nsubj	_	_
+4	?	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 2
-# text = "A small town with two minarets glides by."
-1   A   _   DET _   _   3   det _   _
-2   small   _   ADJ _   _   3   adj _   _
-3   town    _    NOUN   _   _    7   nsubj  _   _
-4   with    _    ADP    _   _   6   case    _   _
-5   two _   NUM _   _   6   nummod  _   _
-6   minarets    _    NOUN   _   _    3   nmod   _   _
-7   glides  _   VERB    _   _   0   root    _   _
-8   by  _   ADV _   _   7   advmod  _   _
-9   .   _   PUNCT   _   _   6   punct   _   _
+# text = En liten stad med två minareter glider förbi.
+# text_en = A small town with two minarets glides by .
+1	En	_	DET	_	_	3	det	_	_
+2	liten	_	ADJ	_	_	3	amod	_	_
+3	stad	_	NOUN	_	_	7	nsubj	_	_
+4	med	_	ADP	_	_	6	case	_	_
+5	två	_	NUM	_	_	6	nmod	_	_
+6	minareter	_	NOUN	_	_	3	nmod	_	_
+7	glider	_	VERB	_	_	0	root	_	_
+8	förbi	_	ADP	_	_	7	advmod	_	_
+9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 3
-# text = "I was just a boy with muddy shoes."
-1   I   _   PRON    _   _   5   nsubj   _   _
-2   was _   AUX _   _   5   cop _   _
-3   just    _   ADV _   _   5   advmod  _   _
-4   a   _   DET _   _   5   det _   _
-5   boy _   NOUN    _   _   0   root    _   _
-6   with    _   ADP _   _   8   case    _   _
-7   muddy   _   ADJ _   _   8   amod    _   _
-8   shoes   _   NOUN    _   _    5   nmod   _   _
-9   .   _   PUNCT   _   _   5   punct   _   _
+# text = Jag var bara en pojke med leriga skor.
+# text = I was just a boy with muddy shoes .
+1	Jag	_	PRON	_	_	5	nsubj	_	_
+2	var	_	AUX	_	_	5	cop	_	_
+3	bara	_	ADV	_	_	5	advmod	_	_
+4	en	_	DET	_	_	5	det	_	_
+5	pojke	_	NOUN	_	_	0	root	_	_
+6	med	_	ADP	_	_	8	case	_	_
+7	leriga	_	ADJ	_	_	8	amod	_	_
+8	skor	_	NOUN	_	_	5	nmod	_	_
+9	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 4
-# text = "Shenzhen 's traffic police have opted for unconventional penalties before.
-1   Shenzhen    _   PROPN   _   _   4   nmod:poss _   _
-2   's  _   PART    _   _   1   case _   _
-3   traffic _   NOUN    _   _   4   compound _   _
-4   police  _   NOUN    _   _   6   nsubj _   _
-5   have    _   AUX _   _   6   aux _   _
-6   opted   _   VERB    _   _   0   root    _   _
-7   for _   ADP _   _   9   case _   _
-8   unconventional  _   ADJ _   _   9   amod _   _
-9   penalties   _   NOUN    _   _   6   obl _   _
-10  before  _   ADV _   _ 6 advmod _ 
-11  .   _   PUNCT   _   _   6   punct _   _
+# text = Shenzhens trafikpolis har valt okonventionella straff förut.
+# text_en = Shenzhen 's traffic police have opted for unconventional penalties before .
+1	Shenzhens	_	PROPN	_	_	2	nmod:poss	_	_
+2	trafikpolis	_	NOUN	_	_	4	nsubj	_	_
+3	har	_	AUX	_	_	4	aux	_	_
+4	valt	_	VERB	_	_	0	root	_	_
+5	okonventionella	_	ADJ	_	_	6	amod	_	_
+6	straff	_	NOUN	_	_	4	obj	_	_
+7	förut	_	ADV	_	_	4	advmod	_	_
+8	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 5
 # text = The study of volcanoes is called volcanology , sometimes spelled vulcanology.
