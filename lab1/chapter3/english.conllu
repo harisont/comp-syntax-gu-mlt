@@ -1,0 +1,59 @@
+# sent_id = 1
+# text = "Who are they?"
+1   Who _   PRON    _   _   0   root    _   _ 
+2   are     _   AUX _   _   1   cop _   _
+3   they    _    PRON   _   _    1   nsubj  _   _
+4   ?   _   PUNCT   _   _   1   punct   _   _ 
+
+# sent_id = 2
+# text = "A small town with two minarets glides by."
+1   A   _   DET _   _   3   det _   _
+2   small   _   ADJ _   _   3   adj _   _
+3   town    _    NOUN   _   _    7   nsubj  _   _
+4   with    _    ADP    _   _   6   case    _   _
+5   two _   NUM _   _   6   nummod  _   _
+6   minarets    _    NOUN   _   _    3   nmod   _   _
+7   glides  _   VERB    _   _   0	root    _   _
+8   by  _   ADV _   _   7   advmod  _   _
+9   .   _   PUNCT   _   _   6   punct   _   _
+
+# sent_id = 3
+# text = "I was just a boy with muddy shoes."
+1   I   _   PRON    _   _   5   nsubj   _   _
+2   was _   AUX _   _   5   cop _   _
+3   just    _   ADV _   _   5   advmod  _   _
+4   a   _   DET _   _   5   det _   _
+5   boy _   NOUN    _   _   0   root    _   _
+6   with    _   ADP _   _   8   case    _   _
+7   muddy   _   ADJ _   _   8   amod    _   _
+8   shoes   _   NOUN    _   _    5   nmod   _   _
+9   .   _   PUNCT   _   _   5   punct   _   _
+
+# sent_id = 4
+# text = "Shenzhen 's traffic police have opted for unconventional penalties before.
+1   Shenzhen    _   PROPN   _   _   4   nmod:poss _   _
+2   's  _   PART    _   _   1   case _   _
+3   traffic _   NOUN    _   _   4   compound _   _
+4   police  _   NOUN    _   _   6   nsubj _   _
+5   have    _   AUX _   _   6   aux _   _
+6   opted   _   VERB    _   _   0   root    _   _
+7   for _   ADP _   _   9   case _   _
+8   unconventional  _   ADJ _   _   9   amod _   _
+9   penalties   _   NOUN    _   _   6   obl _   _
+10  before  _   ADV _   _ 6 advmod _ 
+11  .   _   PUNCT   _   _   6   punct _   _
+
+# sent_id = 5
+# text = The study of volcanoes is called volcanology , sometimes spelled vulcanology.
+1   The _   DET _   _   2   det
+2   study   _   NOUN    _   _   6   nsubj:pass  _   _
+3   of  _   ADP _   _   4   case    _   _
+4   volcanoes   _   NOUN    _   _   2   nmod    _   _
+5   is  _   AUX _   _   6   aux
+6   called  _   VERB    _   _    0   root   _   _
+7   volcanology _   NOUN    _   _    6   xcomp  _   _
+8   ,   _   PUNCT   _   _   10   punct  _   _
+9   sometimes   _   ADV _   _   10  advmod
+10  spelled _   VERB    _   _    6  acl _   _
+11  vulcanology _   NOUN    _   _   10  xcomp   _   _
+12  .   _   PUNCT   _   _   6   punct   _   _
