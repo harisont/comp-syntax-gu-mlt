@@ -70,9 +70,10 @@
 6	mexikanska	_	ADJ	_	_	7	amod	_	_
 7	kusten	_	NOUN	_	_	2	obl	_	_
 8	mellan	_	ADP	_	_	9	case	_	_
-9	april	_	NOUN	_	_	2	obl	_	_
+9	april	_	NOUN	_	_	2	obl	_	_ # proper noun?
 10	och	_	CCONJ	_	_	11	cc	_	_
-11	juni	_	NOUN	_	_	9	conj	_	_
+# adp?
+11	juni	_	NOUN	_	_	9	conj	_	_ # proper noun in swedish?
 12	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 7
