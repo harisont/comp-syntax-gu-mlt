@@ -1,5 +1,6 @@
 # sent_id = 1
 # text = Vilka är de?
+# text_en = Who are they ?
 1	Vilka PRON	0	root
 2	är	AUX	1	cop
 3	de	PRON	1	nsubj
@@ -7,6 +8,7 @@
 
 # sent_id = 2
 # text = En liten stad med två minareter glider förbi.
+# text_en = A small town with two minarets glides by .
 1	En	DET	3	det
 2	liten	ADJ	3	amod
 3	stad	NOUN	7	nsubj
@@ -19,6 +21,7 @@
 
 # sent_id = 3
 # text = Jag var bara en pojke med leriga skor.
+# text = I was just a boy with muddy shoes .
 1	Jag	PRON	5 nsubj
 2	var	AUX	5	cop
 3	bara	ADV	5	advmod
@@ -31,6 +34,7 @@
 
 # sent_id = 4
 # text = Shenzhens trafikpolis har valt okonventionella straff förut.
+# text_en = Shenzhen 's traffic police have opted for unconventional penalties before .
 1	Shenzhens	PROPN	2	nmod:poss
 2	trafikpolis	NOUN	4	nsubj
 3	har	AUX	4	aux
@@ -42,6 +46,7 @@
 
 # sent_id = 5
 # text = Studiet om vulkaner kallas för vulkanologi, ibland stavat vulkanologi
+# text_en = The study of volcanoes is called volcanology , sometimes spelled vulcanology .
 1	Studiet	NOUN	4 nsubj:pass
 2	om	ADP	3	case
 3	vulkaner	NOUN	1	nmod
@@ -56,6 +61,7 @@
 
 # sent_id = 6
 # text = Det genomfördes precis vid den mexikanska kusten mellan april och juni.
+# text_en = It was conducted just off the Mexican coast from April to June .
 1	Det	PRON	2	nsubj:pass
 2	genomfördes	VERB	0	root
 3	precis	ADV	2	advmod
@@ -70,7 +76,8 @@
 12	.	PUNCT	2	punct
 
 # sent_id = 7
-# text = Hennes röst åkte bokstavligen över hela världen sa Leive
+# text = "Hennes röst åkte bokstavligen över hela världen" sa Leive
+# text_en = "Her voice literally went around the world ," Leive said .
 1	Hennes	PRON	2	nmod:poss
 2	röst	NOUN	3	nsubj
 3	åkte	VERB	0	root
@@ -78,12 +85,13 @@
 5	över	ADP	7	case
 6	hela	ADJ	7	amod
 7	världen	NOUN	8	obl
-8	sa	VERB	PROPN	3	_
+8	sa	VERB	3	_
 9	Leive	PROPN	9	nsubj
 10	.	PUNCT	3	punct
 
 # sent_id = 8
 # text = Ett vittne sa till polisen att offret hade attackerat den misstänkta i april.
+# text_en = A witness told police that the victim had attacked the suspect in April .
 1	Ett	DET	2	det
 2	vittne	NOUN	3	nsubj
 3	sa	VERB	0	root
@@ -94,13 +102,14 @@
 8	hade	AUX	9	aux
 9	attackerat	VERB	3	ccomp
 10	den	DET	11	det
-11	misstänkte	ADJ	9	obj
+11	misstänkte	NOUN	9	obj
 12	i	ADP	13	case
-13	april	NOUN	9	obl
+13	april	PROPN	9	obl
 14	.	PUNCT	3	punct
 
 # sent_id = 9
 # text = Det är som allra tydligast när en kändis namn från början är riktigt ovanligt.
+# text_en = It 's most obvious when a celebrity 's name is initially quite rare .
 1	Det	PRON	5	nsubj
 2	är	AUX	5	cop
 3	som	SCONJ	5	mark
@@ -118,7 +127,8 @@
 15	.	PUNCT	5	punct
 
 # sent_id = 10
-# text = Detta har inte stoppat investerare från att flockas till att lägga sina pengar i fonderna.
+# text = Detta har inte stoppat investerare från att flockas för att lägga sina pengar i fonderna.
+# text_en = This has not stopped investors flocking to put their money in the funds .
 1	Detta	PRON	4	nsubj
 2	har	AUX	4	aux
 3	inte	PART	4	advmod
@@ -131,12 +141,14 @@
 10	att	PART	11	mark
 11	lägga	VERB	8	advcl
 13	sina	PRON	13	nmod:pass
-14	pengar	NOUN	11	obj
-15	fonderna	NOUN	11	obl
-16	.	PUNCT	4	punct
+14  i   ADP 16  case
+15	pengar	NOUN	11	obj
+16	fonderna	NOUN	11	obl
+17	.	PUNCT	4	punct
 
 # sent_id = 11
 # text = Denna motsägelse mellan ekonomisk data och politisk retorik är bekant, eller borde vara det.
+# text_en = This discordance between economic data and political rhetoric is familiar , or should be .
 1	Denna	DET	2	det
 2	motsägelse	NOUN	10	nsubj
 3	mellan	ADP	5	case
@@ -156,6 +168,7 @@
 
 # sent_id = 12
 # text = Rimlighetsstudien uppskattar att det skulle ta passagerare ungefär fyra minuter att korsa Potomacfloden med gondolan.
+# text_en = The feasibility study estimates that it would take passengers about four minutes to cross the Potomac River on the gondola .
 1	Rimlighetsstudien	NOUN	2	nsubj
 2	uppskattar	VERB	0	root
 3	att	SCONJ	6	mark
@@ -174,7 +187,8 @@
 16	.	PUNCT	2	punct
 
 # sent_id = 13
-# text = Han samlade kort och bytte dem med andra pojkar.
+# text = Han samlade kort och bytte dem med de andra pojkarna.
+# text_en = He collected cards and traded them with the other boys.
 1	Han	PRON	2	nsubj
 2	samlade	VERB	0	root
 3	kort	NOUN	2	obj
@@ -182,12 +196,14 @@
 5	bytte	VERB	2	_
 6	dem	PRON	5	obj
 7	med	ADP	9	case
-8	andra	ADJ	9	amod
-9	pojkar	NOUN	5	obl
-10	.	PUNCT	2	punct
+8   de  DET 10  det
+9	andra	ADJ	9	amod
+10	pojkarna	NOUN	5	obl
+11	.	PUNCT	2	punct
 
 # sent_id = 14
 # text = Detta brott är värt ett fem år långt fängelsestraff.
+# text_en = this crime carries a penalty of five years in prison
 1	Detta	DET	2	det
 2	brott	NOUN	4	nsubj
 3	är	AUX	4	cop
@@ -201,6 +217,7 @@
 
 # sent_id = 15
 # text = Nyheterna kom till alla byar i provinsen
+# text_en = the news was carried to every village in the province
 1	Nyheterna	NOUN	2	nsubj
 2	kom	VERB	0	root
 3	till	ADP	5	case
@@ -211,20 +228,20 @@
 8	.	PUNCT	2	punct
 
 # sent_id = 16
-# text = Jag har med mig dessa tankar i mitt bakhuvud.
+# text = Jag har dessa tankar i mitt bakhuvud.
+# text_en = I carry these thoughts in the back of my head
 1	Jag	PRON	2	nsubj
 2	har	VERB	0	root
-3	med	ADP	4	case
-4	mig	PRON	2	_
-5	dessa	DET	6	det
-6	tankar	NOUN	2	obj
-7	i	ADP	9	case
-8	mitt	PRON	9	nmod:poss
-9	bakhuvuf	NOUN	2	obl
-10	.	PUNCT	2	punct
+3	dessa	DET	4	det
+4	tankar	NOUN	2	obj
+5	i	ADP	7	case
+6	mitt	PRON	7	nmod:poss
+7	bakhuvud	NOUN	2	obl
+8	.	PUNCT	2	punct
 
 # sent_id = 17
 # text = Adam skulle ha blivit buren in i det oändliga livet. ???
+# text_en = Adam would have been carried over into the life eternal
 1	Adam	PROPN	4	nsubj
 2	skulle	AUX	4	aux
 3	ha	AUX	4	aux
@@ -239,6 +256,7 @@
 
 # sent_id = 18
 # text = Höljena hade ruttnat bort och behövde bytas ut.
+# text_en = the casings had rotted away and had to be replaced
 1	Höljena	NOUN	3	nsubj
 2	hade	AUX	3	aux
 3	ruttnat	VERB	0	root
@@ -246,11 +264,12 @@
 5	och	CCONJ	7	cc
 6	behövde	AUX	7	aux
 7	bytas	VERB	3	conj
-8	ut	ADV	7	compound:prt
+8	ut	ADP	7	compound:prt
 9	.	PUNCT	3	.
 
 # sent_id = 19
-# text = Hon blev uppröd över att denna flicka skulle våga göra henne till åtlöje inför hela klassen.
+# text = Hon blev upprörd över att denna flicka skulle våga göra henne till åtlöje inför hela klassen.
+# text_en = She was incensed that this chit of a girl should dare to make a fool of her in front of the class
 1	Hon	PRON	2	nsubj
 2	blev	VERB	0	root
 3	upprörd	2	xcomp
@@ -270,12 +289,13 @@
 17	.	PUNCT	2	punct
 
 # sent_id = 20
-# text = Jordskredet han hade i valkollegiet döljde snävheten i en seger baserat på bara 43% av rösterna.
+# text = Jordskredet han hade i elektorskollegiet döljde snävheten i en seger baserat på bara 43% av folkvalet.
+# text = The landslide he had in the electoral college obscured the narrowness of a victory based on just 43% of the popular vote
 1	Jordskredet	NOUN	6	nsubj
 2	han	PRON	3	nsubj
 3	hade	VERB	1	acl:relcl
 4	i	ADP	5	case
-5	valkollegiet	NOUN	3	obl
+5	elektorskollegiet	NOUN	3	obl
 6	döljde	VERB	0	root
 7	snävheten	NOUN	6	obj
 8	i	ADP	10	case
@@ -284,13 +304,15 @@
 11	baserat	ADJ	10	acl #??
 12	på	ADP	14	case
 13	bara	ADV	14	advmod
-14	43%	NUM	11	obl
+14	43	NUM	15	nummod
+15  %   SYM 11  obl
 15	av	ADP	16	case
-16	rösterna	NOUN	14	nmod
+16	folkvalet	NOUN	14	nmod
 17	.	PUNCT	6	punct
 
 # sent_id = 21
 # text = Trupper från USA bär nu atropin och autoinjektorer i sina förbandslådor för att använda vid organofosfatnervsgiftsförgiftning. # första hjälpen
+# text_en = United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning
 1	Trupper	NOUN	4	nsubj
 2	från	ADP	3	case
 3	USA	PROPN	1	nmod
@@ -311,6 +333,7 @@
 
 # sent_id = 22
 # text = Han kan med hantverk i det långa loppet åstadkomma vad han inte kan åstadkomma med tvång och våld i det korta
+# text_en = He may accomplish by craft in the long run what he cannot do by force and violence in the short one
 1	Han	PRON	9	nsubj
 2	kan	AUX	9	aux
 3	med	ADP	4	case
@@ -336,6 +359,7 @@
 
 # sent_id = 23
 # text = Det har sagts att endast ett hierakalist samhället med en fritidsklass i toppen kan producera konstverk.
+# text_en = It has been said that only a hierarchical society with a leisure class at the top can produce works of art
 1	Det	PRON	3	_
 2	har	AUX	3	aux
 3	sagts	VERB	0	root
@@ -357,6 +381,7 @@
 
 # sent_id = 24
 # text = Hans geniala förklaring till att han inte skulle ha bränt ner#comment kyrkan om han inte trodde att biskopen var i den.
+# text_en = His ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it
 1	Hans	PRON	3	nmod:poss
 2	geniala	ADJ	3	amod
 3	förklaring	NOUN	0	root
