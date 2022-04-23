@@ -264,25 +264,83 @@
 
 # sent_id = 19
 # text = she was incensed that this chit of a girl should dare to make a fool of her in front of the class
-1   she PRON
-2   was VERB
+1   she PRON    3   nsubj
+2   was VERB    3   cop
 3   incensed    ADJ 0   root
-4   that
-5   this
-6   chit
-7   of
-8   a
-9   girl
-10  should
-11  dare
-12  to
-13  make
-14  a
-15  fool
-16  of
-17  her
-18  in
-19  front
-20  of
-21  the
-22  class
+4   that    SCONJ   11  mark
+5   this    DET 6   det   
+6   chit    NOUN    11  nsubj
+7   of  ADP 9   case
+8   a   DET 9   det
+9   girl    NOUN    6   nmod
+10  should  AUX 11  aux
+11  dare    VERB    3   ccomp
+12  to  PART    13  mark
+13  make    VERB    11  xomp
+14  a   DET 15  det
+15  fool    NOUN    13  obj
+16  of  ADP 17  case
+17  her PRON    15  nmod
+18  in  ADP 19  case
+19  front   NOUN    13  obl
+20  of  ADP 22  case
+21  the DET 22  det
+22  class   NOUN    19  nmod
+
+# sent_id = 20
+# text = the landslide he had in the electoral college obscured the narrowness of a victory based on just 43% of the popular vote
+1   the DET 2   det
+2   landslide   NOUN    9   nsubj
+3   he  PRON    4   nsubj
+4   had VERB    2   acl:relcl
+5   in  ADP 8   case
+6   the DET 8   det
+7   electoral   ADJ 8   compound
+8   college NOUN    4   obl
+9   obscured    VERB    0   root
+10  the DET 11  det
+11  narrowness  NOUN    9   obj
+12  of  ADP 14  case
+13  a   DET 14  det
+14  victory NOUN    11  nmod
+15  based   VERB    14  acl
+16  on  ADP 19  case
+17  just    ADV 18  adv
+18  43  NUM 19  nummod
+19  %   SYM 15  obl
+20  of  ADP 23  case
+21  the DET 23  det
+22  popular ADJ 23  amod
+23  vote    NOUN    19  nmod
+
+# sent_id = 21
+# text = United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning
+1   United  PROPN   2   compound
+2   States  PROPN   3   compound
+3   troops  NOUN    5   nsubj
+4   now ADV 5   advmod
+5   carry   VERB    0   root
+6   atropine    NOUN    3   obj
+7   and CCONJ   8   cc
+8   autoinjectors   NOUN    6   conj
+9   in  ADP 14  case
+10  their   PRON    14  nmod:poss
+11  first   ADJ 12  compound
+12  -   PUNCT   13  compound
+13  aid NOUN    14  compound
+14  kits    NOUN    5   obl
+15  to  PART    16  mark
+16  use VERB    5   advcl
+17  in  ADP 23  case
+18  case    NOUN    17  _
+19  of  ADP 17  _
+20  organophosphate NOUN    21  compound
+21  nerve   NOUN    22  compound
+22  agent   NOUN    23  compound
+23  poisoning   NOUN    16  obl
+
+# sent_id = 22
+# text = He may accomplish by craft in the long run what he cannot do by force and violence in the short one
+1   He PRON
+2   may
+3   accomplish
