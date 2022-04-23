@@ -227,11 +227,62 @@
 # text = I carry these thoughts in the back of my head
 1   I   PRON    2   nsubj
 2   carry   VERB    0   root
-3   these
-4   thoughts
-5   in
-6   the
-7   back
-8   of
-9   my
-10  head
+3   these   DET 4   det
+4   thoughts    NOUN    2   obj
+5   in  ADP 7   case
+6   the DET 7   det
+7   back    NOUN    2   obl
+8   of  ADP 10  case
+9   my  PRON    10  nmod:poss
+10  head    NOUN    7   nmod
+
+# sent_id = 17
+# text = Adam would have been carried over into the life eternal
+1   Adam    PROPN   5  nsubj:pass
+2   would   AUX     5   aux
+3   have    AUX 5   aux
+4   been    AUX 5   aux:pass
+5   carried VERB    0   root
+6   over    ADV 5   advmod
+7   into    ADP 9   case
+8   the DET 9   det
+9   life    NOUN    5   obl
+10  eternal ADJ 9   amod
+
+# sent_id = 18
+# text = the casings had rotted away and had to be replaced
+1   the DET 2   det
+2   casings NOUN    4   nsubj
+3   had AUX 4   aux
+4   rotted  VERB    0   root
+5   away    ADV 4   advmod
+6   and CCONJ   7   cc
+7   had AUX 4   conj
+8   to  PART    10  mark
+9   be  aux 10  aux:pass
+10  replaced    VERB    7   xcomp
+
+# sent_id = 19
+# text = she was incensed that this chit of a girl should dare to make a fool of her in front of the class
+1   she PRON
+2   was VERB
+3   incensed    ADJ 0   root
+4   that
+5   this
+6   chit
+7   of
+8   a
+9   girl
+10  should
+11  dare
+12  to
+13  make
+14  a
+15  fool
+16  of
+17  her
+18  in
+19  front
+20  of
+21  the
+22  class
