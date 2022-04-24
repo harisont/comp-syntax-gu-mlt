@@ -31,14 +31,15 @@
 
 # sentid = 4
 # text = Shenzhen 's traffic police have opted for unconventional penalties before .
-1	Shenzhens	_	PROPN	_	_	2	nmod:poss	_
-2	trafikpolis	_	NOUN	_	_	4	nsubj	_	_
-3	har	_	AUX	_	_	4	aux	_	_
-4	valt	_	VERB	_	_	0	root	_	_
-5	okonventionella	_	ADJ	_	_	6	amod	_	_
-6	straff	_	NOUN	_	_	4	obj	_	_
-7	förut	_	ADV	_	_	4	advmod	_	_
-8	.	_	PUNCT	_	_	4	punct	_	_
+1	Shenzhen	_	PROPN	_	_	2	nmod:poss	_
+2   's  _   PART    _   _   1   case    _   _
+3	trafikpolis	_	NOUN	_	_	4	nsubj	_	_
+4	har	_	AUX	_	_	4	aux	_	_
+5	valt	_	VERB	_	_	0	root	_	_
+6	okonventionella	_	ADJ	_	_	6	amod	_	_
+7	straff	_	NOUN	_	_	4	obj	_	_
+8	förut	_	ADV	_	_	4	advmod	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid = 5
 # text = The study of volcanoes is called volcanology , sometimes spelled vulcanology.
@@ -73,6 +74,7 @@
 
 # sentid = 7
 # text = "Her voice literally went around the world," Leive said.
+# root = went? or said? how to work with quotes?
 1	"	_	PUNCT	_	_	5	punct	_	_
 2	Her	_	PRON	_	_	3	nmod:poss	_	_
 3	voice	_	NOUN	_	_	5	nsubj	_	_
@@ -217,6 +219,7 @@
 
 # sentid = 17
 # text = Adam would have been carried over into the life eternal
+# over, ADV or ADP?
 1	Adam	_	PROPN	_	_	5	nsubj:pass	_	_
 2	would	_	AUX	_	_	5	aux	_	_
 3	have	_	AUX	_	_	5	aux	_	_
@@ -320,6 +323,7 @@
 
 # sentid = 22
 # text = He may accomplish by craft in the long run what he cannot do by force and violence in the short one
+# I was a bit unsure of the "cannot" but followed an example from the en PUD where it was divided into "can" and "not"
 1	He	_	PRON	_	_	3	nsubj	_	_
 2	may	_	AUX	_	_	3	aux	_	_
 3	accomplish	_	VERB	_	_	0	root	_	_

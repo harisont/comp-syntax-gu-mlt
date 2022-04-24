@@ -47,6 +47,7 @@
 # sent_id = 5
 # text = Studiet om vulkaner kallas för vulkanologi, ibland stavat vulkanologi
 # text_en = The study of volcanoes is called volcanology , sometimes spelled vulcanology .
+# I spelled it "vulkanologi" both times since I don't think there is an alternative spelling to the Swedish word
 1	Studiet	_	NOUN	_	_	4	nsubj:pass	_	_
 2	om	_	ADP	_	_	3	case	_	_
 3	vulkaner	_	NOUN	_	_	1	nmod	_	_
@@ -62,6 +63,7 @@
 # sent_id = 6
 # text = Det genomfördes precis vid den mexikanska kusten mellan april och juni.
 # text_en = It was conducted just off the Mexican coast from April to June .
+# I'm not sure if months counts as proper nouns in Swedish
 1	Det	_	PRON	_	_	2	nsubj:pass	_	_
 2	genomfördes	_	VERB	_	_	0	root	_	_
 3	precis	_	ADV	_	_	2	advmod	_	_
@@ -70,15 +72,19 @@
 6	mexikanska	_	ADJ	_	_	7	amod	_	_
 7	kusten	_	NOUN	_	_	2	obl	_	_
 8	mellan	_	ADP	_	_	9	case	_	_
-9	april	_	NOUN	_	_	2	obl	_	_ # proper noun?
+9	april	_	PROPN	_	_	2	obl	_	_ # proper noun?
 10	och	_	CCONJ	_	_	11	cc	_	_
-# adp?
-11	juni	_	NOUN	_	_	9	conj	_	_ # proper noun in swedish?
+11	juni	_	PROPN	_	_	9	conj	_	_ # proper noun?
 12	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 7
 # text = "Hennes röst åkte bokstavligen över hela världen" sa Leive
 # text_en = "Her voice literally went around the world ," Leive said .
+# I was a bit unsure of this one and looked it up in the Swedish treebank where it was translated to "'Hennes röst gick bokstavligt talat runt jorden', sade Leive"
+# and they mean the same thing in my opinion, just with different wordings 'jorden = the earth', and 'världen = the world'
+# However, "said" was annotated to "sade" which may be more grammatically correct, to me it feels more 'old' and formal so I decided to stick with 'sa" since it is
+# used in the same way as "sade"
+# tricky to find root
 1	Hennes	_	PRON	_	_	2	nmod:poss	_	_
 2	röst	_	NOUN	_	_	3	nsubj	_	_
 3	åkte	_	VERB	_	_	0	root	_	_
@@ -130,6 +136,7 @@
 # sent_id = 10
 # text = Detta har inte stoppat investerare från att flockas för att lägga sina pengar i fonderna.
 # text_en = This has not stopped investors flocking to put their money in the funds .
+# Had a look at the Swedish treebank afterwards and they had translated "stopped" to "hindrat"
 1	Detta	_	PRON	_	_	4	nsubj	_	_
 2	har	_	AUX	_	_	4	aux	_	_
 3	inte	_	PART	_	_	4	advmod	_	_
@@ -193,8 +200,8 @@
 1	Han	_	PRON	_	_	2	nsubj	_	_
 2	samlade	_	VERB	_	_	0	root	_	_
 3	kort	_	NOUN	_	_	2	obj	_	_
-4	och	_	CCONJ	_	_	2	conj	_	_
-5	bytte	_	VERB	_	_	2	_	_	_
+4	och	_	CCONJ	_	_	2	cc	_	_
+5	bytte	_	VERB	_	_	2	conj	_	_
 6	dem	_	PRON	_	_	5	obj	_	_
 7	med	_	ADP	_	_	9	case	_	_
 8	de	_	DET	_	_	10	det	_	_
@@ -205,6 +212,8 @@
 # sent_id = 14
 # text = Detta brott är värt ett fem år långt fängelsestraff.
 # text_en = this crime carries a penalty of five years in prison
+# Could also be "detta brott har ett straffvärde på fem år i fängelse" or "detta brott är värt fem år i fängelse" but the one I stuck
+# with felt more natural to me, however it is not the direct translation though they have the same meaning
 1	Detta	_	DET	_	_	2	det	_	_
 2	brott	_	NOUN	_	_	4	nsubj	_	_
 3	är	_	AUX	_	_	4	cop	_	_
@@ -241,8 +250,9 @@
 8	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 17
-# text = Adam skulle ha blivit buren in i det oändliga livet. ???
+# text = Adam skulle ha blivit buren in i det oändliga livet. 
 # text_en = Adam would have been carried over into the life eternal
+# Wasn't really sure on how to translate "carry"
 1	Adam	_	PROPN	_	_	4	nsubj	_	_
 2	skulle	_	AUX	_	_	4	aux	_	_
 3	ha	_	AUX	_	_	4	aux	_	_
@@ -312,7 +322,7 @@
 17	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 21
-# text = Trupper från USA bär nu atropin och autoinjektorer i sina förbandslådor för att använda vid organofosfatnervsgiftsförgiftning. # första hjälpen
+# text = Trupper från USA bär nu atropin och autoinjektorer i sina förbandslådor för att använda vid organofosfatnervsgiftsförgiftning. # första hjälpen-lådor
 # text_en = United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning
 1	Trupper	_	NOUN	_	_	4	nsubj	_	_
 2	från	_	ADP	_	_	3	case	_	_
@@ -380,8 +390,9 @@
 17	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 24
-# text = Hans geniala förklaring till att han inte skulle ha bränt ner#comment kyrkan om han inte trodde att biskopen var i den.
+# text = Hans geniala förklaring till att han inte skulle ha bränt ned kyrkan om han inte trodde att biskopen var i den.
 # text_en = His ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it
+# noun as root
 1	Hans	_	PRON	_	_	3	nmod:poss	_	_
 2	geniala	_	ADJ	_	_	3	amod	_	_
 3	förklaring	_	NOUN	_	_	0	root	_	_
@@ -392,7 +403,7 @@
 8	skulle	_	AUX	_	_	10	aux	_	_
 9	ha	_	AUX	_	_	10	aux	_	_
 10	bränt	_	VERB	_	_	3	acl	_	_
-11	ner	_	ADV	_	_	10	compound:prt	_	_
+11	ned	_	ADV	_	_	10	compound:prt	_	_
 12	kyrkan	_	NOUN	_	_	10	obj	_	_
 13	om	_	SCONJ	_	_	16	mark	_	_
 14	han	_	PRON	_	_	16	nsubj	_	_
