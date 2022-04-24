@@ -341,6 +341,75 @@
 
 # sent_id = 22
 # text = He may accomplish by craft in the long run what he cannot do by force and violence in the short one
-1   He PRON
-2   may
-3   accomplish
+1   He PRON 3   nsubj
+2   may AUX 3   aux #(?)
+3   accomplish  VERB    0   root
+4   by  ADP 5   case
+5   craft   NOUN    3   obl
+6   in  ADP 9   case
+7   the DET 9   det
+8   long    ADJ 9   amod
+9   run NOUN    3   obl
+10  what    PRON    14  obj #(?)
+11  he  PRON    14  nsubj
+13  can AUX 15  aux
+14  not PART    15  advmod
+# was a bit unsure about "cannot" but I had a look at the English PUD where cannot was used and it was split into "can" and "not"
+# so I did it the same way
+15  do  VERB    3   ccomp
+16  by  ADP 16  case
+17  force   NOUN    14  obl
+18  and CCONJ   18  cc
+19  violence    NOUN    16  conj
+20  in  ADP 22  case
+21  the DET 23  det
+22  short   ADJ 23  amod
+23  one NOUN    14  obl
+
+# sent_id = 23
+# text = It has been said that only a hierarchical society with a leisure class at the top can produce works of art
+1   It  PRON    4   nsubj:pass
+2   has AUX 4   aux
+3   been    AUX 4   aux:pass
+4   said    VERB    0   root
+5   that    SCONJ   18  mark
+6   only    ADV 9   advmod
+7   a   DET 9   det
+8   hierarchical    ADJ 9   amod
+9   society NOUN    18  nsubj
+10  with    ADP 13  case
+11  a   DET 13  det
+12  leisure NOUN    13  compound
+13  class   NOUN    9   nmod
+14  at  ADP 16  case
+15  the DET 16  det
+16  top NOUN    13  nmod
+17  can AUX    18   aux 
+18  produce VERB    4   ccomp
+19  works   NOUN    18  obj
+20  of  ADP 21  case
+21  art NOUN    19  nmod
+
+# sent_id = 24
+# text = His ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it
+1   His PRON    3   nmod:poss
+2   ingenuous   ADJ 3   amod
+3   explanation NOUN    0   root
+4   that    SCONJ   9   mark
+5   he  PRON    9   nsubj
+6   would   AUX 9   aux
+7   not PART    9   advmod
+8   have    AUX 9   aux
+9   burned  VERB    3   acl
+10  the DET 11  det
+11  church  NOUN    9   obj
+12  if  SCONJ   16  mark
+13  he  PRON    16  nsubj
+14  had AUX 16  aux
+15  not PART    16  advmod
+16  thought VERB    9   advcl
+17  the DET 18  det
+18  bishop  NOUN    21  nsubj
+19  was AUX 21  cop
+20  in  ADP 21  case
+21  it  PRON    16  ccomp
