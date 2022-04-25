@@ -63,7 +63,6 @@
 # sent_id = 6
 # text = Det genomfördes precis vid den mexikanska kusten mellan april och juni.
 # text_en = It was conducted just off the Mexican coast from April to June .
-# I'm not sure if months counts as proper nouns in Swedish
 1	Det	_	PRON	_	_	2	nsubj:pass	_	_
 2	genomfördes	_	VERB	_	_	0	root	_	_
 3	precis	_	ADV	_	_	2	advmod	_	_
